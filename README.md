@@ -16,6 +16,7 @@ apt-get install libapache2-mod-php8.1 php8.1-fpm libapache2-mod-fcgid php8.1-cur
 
 
 nano /etc/apache2/ports.conf
+
  در این قسمت پورت 80 را به یه پورت دیگه تغییر بدید
  
 service apache2 restart
