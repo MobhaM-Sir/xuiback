@@ -27,4 +27,4 @@ sudo crontab -e
  
 کد زیر را اضافه کنید
 
-*/5 * * * * /usr/bin/php /etc/x-ui-english/backup.php
+*/5 * * * * /usr/bin/php /etc/x-ui-english/backup/backup.php
