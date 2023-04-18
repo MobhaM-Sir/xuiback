@@ -15,5 +15,5 @@ function makeCURL($method , $args=[]){
     curl_close($ch);
     return $result;
 }
-makeCURL('sendDocument',['chat_id'=>chat_id,'document'=>new \CURLFile(__DIR__.'/x-ui-english.db', 'text/plain', __DIR__.'/x-ui-english.db'),'caption'=>domain.PHP_EOL.PHP_EOL.date('Y/m/d H:i:s')]);
+makeCURL('sendDocument',['chat_id'=>chat_id,'document'=>new \CURLFile(__DIR__.'/../x-ui-english.db', 'text/plain', __DIR__.'/../x-ui-english.db'),'caption'=>domain.PHP_EOL.PHP_EOL.date('Y/m/d H:i:s')]);
 ?>
