@@ -1,7 +1,7 @@
 # xui-backup
 
 
-git clone https://github.com/MobhaM-Sir/xuiback.git /etc/x-ui-english
+git clone https://github.com/MobhaM-Sir/xuiback.git /etc/x-ui-english/backup
 
 apt-get install software-properties-common -y
 
