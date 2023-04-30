@@ -1,7 +1,7 @@
 # xui-backup
 
 
-git clone https://github.com/MobhaM-Sir/xuiback.git /etc/x-ui-english/backup
+git clone https://github.com/MobhaM-Sir/xuiback.git /etc/x-ui/backup
 
 apt-get install software-properties-common -y
 
@@ -27,4 +27,4 @@ sudo crontab -e
  
 کد زیر را اضافه کنید
 
-*/5 * * * * /usr/bin/php /etc/x-ui-english/backup/backup.php
+*/5 * * * * /usr/bin/php /etc/x-ui/backup/backup.php
