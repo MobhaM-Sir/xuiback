@@ -1,5 +1,6 @@
 # xui-backup
 
+hostname example.com
 
 git clone https://github.com/MobhaM-Sir/xuiback.git /etc/x-ui/backup
 
